@@ -14,7 +14,7 @@
 		{
 			"binding": "DB",
 			"database_name": "triager-db",
-			"database_id": "YOUR_DATABASE_ID_HERE",
+			"database_id": "1463b240-a066-450c-9e8a-1fffae5c792d",
 			"remote": true
 		}
 	],
