@@ -27,6 +27,14 @@ A tool for Product Managers to aggregate, analyze, and triage user feedback from
 # Install
 npm install
 
+# Create D1 database
+npx wrangler d1 create triager-db
+
+# Update wrangler.jsonc with your database_id from the command above
+
+# Create Vectorize index
+npx wrangler vectorize create feedback-search --dimensions=768 --metric=cosine
+
 # Run locally
 npm run dev
 
